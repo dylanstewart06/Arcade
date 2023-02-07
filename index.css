@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    height: 880px;
+    width: 900px;
+}
+
+.box {
+    border: solid 1px;
+    flex-basis: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: left;
+    margin-right: 80px;
+}
