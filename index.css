@@ -47,10 +47,22 @@ header p {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: large;
 }
 
 body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#status {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+
+#reset {
+    background-color: rgb(199, 2, 2);
+    box-shadow:  3px 3px 3px rgb(0, 0, 0);
 }
