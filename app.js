@@ -36,8 +36,8 @@ function playerMove() {
 
   const clickedCell = this;
   moveLogged(clickedCell, cellIndex);
-  switchPlayer();
   winner();
+  switchPlayer();
 }
 
 function moveLogged(cell, index) {
@@ -46,8 +46,10 @@ function moveLogged(cell, index) {
 }
 
 function switchPlayer() {
+  if(playing) {
   player = player === "x" ? "o" : "x";
   statusText.textContent = `${player}'s turn`;
+  }
 }
 
 function winner() {
